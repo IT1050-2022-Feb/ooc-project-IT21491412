@@ -1,5 +1,4 @@
 #include "Manager.h"
-#include "Report.h"
 
 class Admin: public Manager{
   protected:

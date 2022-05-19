@@ -4,7 +4,7 @@
 using namespace std;
 agent::agent(){
 }
-agent(int AID, char name, char address,char email , int age);
+agent::agent(int AID, char name, char address,char email , int age);
 
   void agent::viewClaimList() {
  

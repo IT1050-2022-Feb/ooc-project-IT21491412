@@ -4,9 +4,13 @@
 
 using namespace std;
 
-
-Payment::Payment(const char P_ID[] ,const char P_method[] , double P_amount){
- strcpy(payID,P_ID);
+ Payment::Payment(){
+    strcpy(payID,"");
+    strcpy(Payment_method,"");
+    amount = 0;
+ }
+ Payment::Payment(const char P_ID[] ,const char P_method[] , double P_amount){
+ strcpy(payID,P_ID[]);
  strcpy(Payment_method,P_method);
  amount = P_amount;
 }

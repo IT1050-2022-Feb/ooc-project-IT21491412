@@ -1,4 +1,3 @@
-#pragma once
 class Payment
 {
   private:
@@ -7,8 +6,8 @@ class Payment
     double amount;
 
   public:
-    Payment(){};
-    Payment(const char payID , const char 
+    Payment();
+    Payment(const char payID[] , const char 
     Payment_method[]  ,    double amount);
     void displayPayment();
     ~Payment();
