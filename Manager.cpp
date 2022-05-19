@@ -6,15 +6,15 @@ using namespace std;
 Manager::Manager()
 {
 	Manager_ID = 0;
-	strcpy_s(Name, "");
-	strcpy_s(Email, "");
+	strcpy(Name, "");
+	strcpy(Email, "");
 }
 
 Manager::Manager(int M_ID, const char M_Name[], const char M_Email[])
 {
 	Manager_ID = M_ID;
-	strcpy_s(Name, M_Name);
-	strcpy_s(Email, M_Email);
+	strcpy(Name, M_Name);
+	strcpy(Email, M_Email);
 }
 
 void Manager::DisplayDetails()

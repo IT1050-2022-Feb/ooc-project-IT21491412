@@ -21,3 +21,18 @@ Registered_User::Registered_User(int R_ID, const char R_Name[], const char R_Add
 	Age = R_Age;
 }
 
+
+void Registered_User::DisplayDetails()
+{
+	cout << "Registered User ID: " << UserID << endl;
+	cout << "Registered User Name: " << Name << endl;
+	cout << "Registered User Address: " << Address << endl;
+	cout << "Registered User Email: " << Email << endl;
+	cout << "Registered User Age: " << Age << endl;
+}
+
+Registered_User::~Registered_User()
+{
+	cout << "Registered_User Removed" << endl;
+}
+
