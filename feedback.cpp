@@ -1,3 +1,6 @@
+//IT21561252
+//Liyanage.L.S.T
+
 #include<iostream> 
 #include<cstring> 
 #include"feedback.h"
