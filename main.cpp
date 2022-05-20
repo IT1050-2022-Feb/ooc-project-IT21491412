@@ -2,6 +2,7 @@
 //IT21561252 - Liyanage L.S.T
 //IT21572388 - Arampath A.M.S.Y
 //IT21787072_COSTA D.A.S
+//IT21480218 - Deheragoda D.M.L.M
 
 #include <iostream>
 #include<cstring>
