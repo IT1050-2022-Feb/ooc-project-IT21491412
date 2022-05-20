@@ -64,6 +64,38 @@ Feedback *Feedback1 = new Feedback;
   cout << endl;
 
   
-	return 0;
+	
 }
 
+//---------------------------------------------------------------------------
+
+	agent*agent1=new agent();
+	agent*a1=new agent("A001","Kevin");
+	
+	agent*a2=new agent("A002","Sahan");
+
+agent1->add agent(a1,a2);
+delete a1;
+delete a2;
+
+agent*a3=new agent("A003","Sadun");
+agent*a4=new agent("A004","Kasun");
+
+agent1->add agent(a3,a4);
+agent1->displayDetails();
+
+cout << endl;
+  
+
+
+//------------------------------------------------------------------------
+  policy *p1= new policy("p001","full","5000","12months");
+	visitor *v1 = new visitor("Sadun");
+  
+	v1-> viewPolicyDetails();
+  
+	v1-> displayPolicyDetails();
+
+  cout <<endl;
+
+  //------------------------------------------------------------------------
