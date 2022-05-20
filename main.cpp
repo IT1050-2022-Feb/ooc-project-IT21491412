@@ -1,7 +1,7 @@
-//IT21491412 -Ganepola U.I
+ //IT21491412 -Ganepola U.I
 //IT21561252 - Liyanage L.S.T
 //IT21572388 - Arampath A.M.S.Y
-
+//IT21787072_COSTA D.A.S
 
 #include <iostream>
 #include<cstring>
