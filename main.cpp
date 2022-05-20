@@ -6,6 +6,7 @@
 #include "User.h"
 #include "Payment.h"
 #include "admin.h"
+#include "feedback.h"
 
 using namespace std;
 
