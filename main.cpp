@@ -1,4 +1,7 @@
+//IT21491412 -Ganepola U.I
 //IT21561252 - Liyanage L.S.T
+
+
 #include <iostream>
 #include<cstring>
 #include"claim.h"
