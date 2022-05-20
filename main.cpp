@@ -1,4 +1,4 @@
-//IT21561252 - iyanage L.S.T
+//IT21561252 - Liyanage L.S.T
 #include <iostream>
 #include<cstring>
 #include"claim.h"
