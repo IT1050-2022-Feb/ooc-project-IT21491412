@@ -43,7 +43,7 @@ Feedback *Feedback1 = new Feedback;
   Feedback1 ->setFeedback(877,"In progress");
   Feedback1 ->displayFeebackDetails();
 
-  cout << endl;
+  cout  << endl; 
 
 
 
